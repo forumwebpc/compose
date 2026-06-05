@@ -353,9 +353,6 @@ services:
       # GOOGLE_PROJECT_NUMBER: ${GOOGLE_PROJECT_NUMBER}
 
       # Comment out everything below this point if you are using an external Postgres database
-  db:
-    image: supabase/postgres:15.8.1.060
-    restart: unless-stopped
     db:
     image: supabase/postgres:15.8.1.060
     restart: unless-stopped
